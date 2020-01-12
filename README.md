@@ -1,4 +1,4 @@
-# AESR_AMIE+
+# AESR_AMIE
 A Python pipeline for using AMIE+ to mine logic rules and instantiate new facts.
 ## Settings and Dependencies:
 * Python: 3.7
