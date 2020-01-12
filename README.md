@@ -16,13 +16,13 @@ With this command, the pipeline will first extract RDF triples from ASER format 
 
 * Run pipeline for other knowledge base:
 
-Mine logical rules with AMIE+:
-```Bash
-python pipeline.py -m --row --row_triples /path/to/row_triples.tsv --amie_plus_path /path/to/AMIE+.jar 
-```
-The mined rules will be sorted according to the PCA and STD confidence repectively and saved in "pca_sorted_rule.tsv" and "std_sorted_rule.tsv" in the module directory.
+  * Mine logical rules with AMIE+:
+  ```Bash
+  python pipeline.py -m --row --row_triples /path/to/row_triples.tsv --amie_plus_path /path/to/AMIE+.jar 
+  ```
+  The mined rules will be sorted according to the PCA and STD confidence repectively and saved in "pca_sorted_rule.tsv" and     "std_sorted_rule.tsv" in the module directory.
 
-Predict/Instantiate new facts with mined/provided rules:
-```Bash
-python pipeline.py -p --rule_path /path/to/rule_you_provide.tsv --row_triples /path/to/row_triples.tsv ----new_prediction_path /path/to/new_prediction.tsv
-```
+  * Predict/Instantiate new facts with mined/provided rules:
+  ```Bash
+  python pipeline.py -p --rule_path /path/to/rule_you_provide.tsv --row_triples /path/to/row_triples.tsv ----new_prediction_path /path/to/new_prediction.tsv
+  ```
