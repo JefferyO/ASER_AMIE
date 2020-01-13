@@ -1,6 +1,6 @@
 # AESR_AMIE
 A Python pipeline for using AMIE+ to mine logic rules and instantiate new facts.
-Initially designed for mining new relations for [ASER](https://github.com/HKUST-KnowComp/ASER)
+Initially designed for mining new relations for [ASER](https://hkust-knowcomp.github.io/ASER/)
 ## Settings and Dependencies:
 * Python 3.7
 * [AMIE+](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/amie/)
